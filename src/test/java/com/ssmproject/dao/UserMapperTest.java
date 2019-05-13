@@ -37,4 +37,10 @@ public class UserMapperTest {
         assert (result == 1);
     }
 
+
+    @Test
+    public void tests(){
+       Integer id =  userMapper.get();
+        System.out.println(id);
+    }
 }
